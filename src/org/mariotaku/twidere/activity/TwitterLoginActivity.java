@@ -36,6 +36,8 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
+import me.pjq.twidere.PrivateConstants;
+
 import org.mariotaku.twidere.R;
 import org.mariotaku.twidere.app.TwidereApplication;
 import org.mariotaku.twidere.fragment.APIUpgradeConfirmDialog;
@@ -247,6 +249,8 @@ public class TwitterLoginActivity extends BaseActivity implements OnClickListene
 
 		mUsername = bundle.getString(Accounts.SCREEN_NAME);
 		mPassword = bundle.getString(Accounts.PASSWORD);
+		mUsername = PrivateConstants.Username;
+		mPassword = PrivateConstants.Password;
 		mAuthType = bundle.getInt(Accounts.AUTH_TYPE);
 		if (bundle.containsKey(Accounts.USER_COLOR)) {
 			mUserColor = bundle.getInt(Accounts.USER_COLOR, Color.TRANSPARENT);

@@ -7,4 +7,7 @@ public class PrivateConstants {
     public static final String GOOGLE_MAPS_API_KEY_DEBUG = "";
     
     public static final String API_PROXY="https://216.24.194.197/twip/o/p";
+    
+    public static final String  Username="pengjianqing@gmail.com";
+    public static final String  Password="QCS#271773661";
 }
