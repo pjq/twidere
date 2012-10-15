@@ -428,6 +428,7 @@ public class TwitterLoginActivity extends BaseActivity implements OnClickListene
 		}
 		cb.setGZIPEnabled(enable_gzip_compressing);
 		cb.setIgnoreSSLError(ignore_ssl_error);
+		cb.setUseSSL(true);
 		if (enable_proxy) {
 			final String proxy_host = mPreferences.getString(PREFERENCE_KEY_PROXY_HOST, null);
 			final int proxy_port = parseInt(mPreferences.getString(PREFERENCE_KEY_PROXY_PORT, "-1"));
