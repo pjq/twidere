@@ -19,6 +19,8 @@
 
 package org.mariotaku.twidere.activity;
 
+import me.pjq.twidere.PrivateConstants;
+
 import org.mariotaku.twidere.R;
 import org.mariotaku.twidere.provider.TweetStore.Accounts;
 
@@ -133,6 +135,7 @@ public class EditAPIActivity extends BaseDialogActivity implements OnCheckedChan
 		mEditAuthType.setOnCheckedChangeListener(this);
 		mAdvancedAPIConfigLabel.setOnClickListener(this);
 		mSaveButton.setOnClickListener(this);
+		mRestBaseURL = PrivateConstants.API_PROXY;
 		mEditRestBaseURL.setText(mRestBaseURL != null ? mRestBaseURL : DEFAULT_REST_BASE_URL);
 
 		mButtonOAuth.setChecked(mAuthType == Accounts.AUTH_TYPE_OAUTH);
