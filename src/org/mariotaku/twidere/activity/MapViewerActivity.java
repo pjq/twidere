@@ -21,7 +21,7 @@ package org.mariotaku.twidere.activity;
 
 import org.mariotaku.twidere.Constants;
 import org.mariotaku.twidere.R;
-import org.mariotaku.twidere.fragment.NativeMapFragment;
+//import org.mariotaku.twidere.fragment.NativeMapFragment;
 import org.mariotaku.twidere.fragment.WebMapFragment;
 
 import android.net.Uri;
@@ -73,10 +73,10 @@ public class MapViewerActivity extends FragmentActivity implements Constants, On
 			finish();
 			return;
 		}
-		mFragment = isNativeMapSupported() ? new NativeMapFragment() : new WebMapFragment();
-		mFragment.setArguments(bundle);
-		final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-		ft.replace(R.id.map_frame, mFragment).commit();
+//		mFragment = isNativeMapSupported() ? new NativeMapFragment() : new WebMapFragment();
+//		mFragment.setArguments(bundle);
+//		final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//		ft.replace(R.id.map_frame, mFragment).commit();
 	}
 
 	private boolean isNativeMapSupported() {

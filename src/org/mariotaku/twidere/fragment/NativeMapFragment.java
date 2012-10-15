@@ -19,12 +19,12 @@
 
 package org.mariotaku.twidere.fragment;
 
-import org.mariotaku.twidere.activity.NativeMapActivity;
-
-public class NativeMapFragment extends ActivityHostFragment<NativeMapActivity> {
-
-	@Override
-	protected Class<NativeMapActivity> getActivityClass() {
-		return NativeMapActivity.class;
-	}
-}
+//import org.mariotaku.twidere.activity.NativeMapActivity;
+//
+//public class NativeMapFragment extends ActivityHostFragment<NativeMapActivity> {
+//
+//	@Override
+//	protected Class<NativeMapActivity> getActivityClass() {
+//		return NativeMapActivity.class;
+//	}
+//}

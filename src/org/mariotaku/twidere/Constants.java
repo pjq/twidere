@@ -19,6 +19,8 @@
 
 package org.mariotaku.twidere;
 
+import me.pjq.twidere.PrivateConstants;
+
 import org.mariotaku.twidere.provider.TweetStore.Accounts;
 import org.mariotaku.twidere.provider.TweetStore.CachedTrends;
 import org.mariotaku.twidere.provider.TweetStore.CachedUsers;
